@@ -12,32 +12,29 @@ const Bio = () => {
             Biography
           </h2>
           <p className="text-xl text-slate-500 dark:text-slate-300">
-            A brief overview of Dr. Ishu Shrestha's international medical
-            journey
+            A brief overview of my international medical journey
           </p>
         </div>
 
         <div className="bg-white dark:bg-slate-800 p-6 rounded-xl shadow-md transition-colors duration-300">
           <p className="text-slate-600 dark:text-slate-300 mb-4">
-            Dr. Ishu Shrestha is a dedicated medical professional with extensive
-            experience across three different healthcare systems. After
-            completing her MBBS degree, she began her medical career in Nepal,
-            where she served as a Medical Officer for five years in leading
-            hospitals, gaining valuable experience in patient care and emergency
-            medicine.
+            I am a dedicated medical professional with experience across three
+            different healthcare systems. After completing my MBBS degree, I
+            began my medical career in Nepal, where I served as a Medical
+            Officer for five years in leading hospitals, gaining valuable
+            experience in patient care and emergency medicine.
           </p>
           <p className="text-slate-600 dark:text-slate-300 mb-4">
-            Her commitment to medical excellence led her to the United Kingdom,
-            where she worked with the National Health Service (NHS), expanding
-            her clinical expertise and adapting to international healthcare
-            standards. During her time in the UK, she handled diverse patient
-            cases and contributed to emergency care services.
+            My commitment to medical excellence led me to the United Kingdom,
+            where I worked with the National Health Service (NHS), expanding my
+            clinical expertise and adapting to international healthcare
+            standards. During my time in the UK, I handled diverse patient cases
+            and contributed to emergency care services.
           </p>
           <p className="text-slate-600 dark:text-slate-300">
-            Currently practicing in Australia under AHPRA registration, Dr.
-            Shrestha continues to demonstrate her dedication to patient care,
-            focusing on comprehensive medical assessment, treatment, and health
-            promotion. Her international experience has given her a unique
+            Currently, I am practicing in Australia under AHPRA registration,
+            focusing on comprehensive patient care, treatment, and health
+            promotion. My international experience has given me a unique
             perspective on healthcare delivery across different cultural
             contexts.
           </p>

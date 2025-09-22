@@ -10,15 +10,16 @@ const Hero = () => {
         {/* Text Content */}
         <div className="md:w-1/2 text-center md:text-left mb-10 md:mb-0">
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 dark:text-slate-200 leading-tight mb-4">
-            Dr. Ishu Shrestha
+            I'm Dr. Ishu Shrestha
           </h1>
           <p className="text-xl text-slate-600 dark:text-slate-300 mb-6">
             Medical Officer
           </p>
           <p className="text-lg text-slate-500 dark:text-slate-400 mb-8">
-            Dedicated medical professional with international experience across
-            Nepal, UK, and Australia. Committed to providing comprehensive
-            patient care with a focus on excellence in clinical practice.
+            I am a dedicated medical professional with international experience
+            across Nepal, the UK, and Australia. I focus on providing
+            comprehensive patient care while striving for excellence in every
+            aspect of clinical practice.
           </p>
           <button
             onClick={() =>
@@ -28,7 +29,7 @@ const Hero = () => {
             }
             className="bg-indigo-700 hover:bg-indigo-800 text-white font-semibold py-3 px-8 rounded-lg transition duration-300"
           >
-            View Achievements
+            View My Achievements
           </button>
         </div>
 
