@@ -6,6 +6,7 @@ import AchievementsSection from "./components/AchievementsSection";
 import Footer from "./components/Footer";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
+import SEO from "./components/SEO";
 
 function App() {
   // Read initial dark mode preference from localStorage or system preference
@@ -30,8 +31,14 @@ function App() {
 
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-slate-900 transition-colors duration-300 text-slate-900 dark:text-slate-200">
-      <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
+      <SEO
+        title="Ishu Shrestha | Doctor"
+        description="Portfolio of Ishu Shrestha — showcasing professional experience and services as a doctor."
+        url="https://www.ishushrestha.com.np/"
+        image="https://www.ishushrestha.com.np/logo_title.png"
+      />
 
+      <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
       <Hero />
       <Bio />
       <Experience />
