@@ -27,7 +27,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-6">
             {[
-              { name: "Biography", id: "bio" },
+              { name: "Biography", id: "biography" },
               { name: "Experience", id: "experience" },
               { name: "Achievements", id: "achievements" },
               { name: "Contact", id: "contact" },
