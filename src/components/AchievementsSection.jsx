@@ -68,7 +68,7 @@ const AchievementsSection = () => {
       type: "Experience",
       title: "Medical Officer",
       issuer: "National Health Service (NHS), United Kingdom",
-      date: "2022-2023",
+      date: "2023-2024",
       description:
         "Provided medical care in the UK healthcare system, handling diverse patient cases and emergency situations.",
       icon: <AwardIcon />,
@@ -77,7 +77,7 @@ const AchievementsSection = () => {
       type: "Clinical Experience",
       title: "Medical Officer",
       issuer: "Leading Hospitals in Nepal",
-      date: "2017-2022",
+      date: "2018-2023",
       description:
         "Served for 5 years providing primary care, managing medical cases, and working with healthcare teams in various clinical settings.",
       icon: <AwardIcon />,
@@ -86,7 +86,7 @@ const AchievementsSection = () => {
       type: "Education",
       title: "MBBS Degree",
       issuer: "Medical University", // Add actual university name
-      date: "2017",
+      date: "2018",
       description:
         "Completed Bachelor of Medicine and Bachelor of Surgery (MBBS), laying the foundation for medical practice.",
       icon: <BookIcon />,

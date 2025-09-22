@@ -35,7 +35,7 @@ const Experience = () => {
     {
       title: "Medical Officer",
       location: "National Health Service (NHS)",
-      duration: "2022-2023",
+      duration: "2023-2024",
       description:
         "Worked in the UK healthcare system, gaining valuable experience in diverse medical cases and emergency care while adapting to international healthcare standards.",
       country: "United Kingdom",
@@ -43,7 +43,7 @@ const Experience = () => {
     {
       title: "Medical Officer",
       location: "Leading Hospitals",
-      duration: "2017-2022",
+      duration: "2018-2023",
       description:
         "Served for 5 years in various leading hospitals, managing complex medical cases and contributing to healthcare delivery in both urban and rural settings.",
       country: "Nepal",
