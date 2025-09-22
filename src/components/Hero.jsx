@@ -2,15 +2,20 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section id="home" className="pt-24 md:pt-32 pb-20 bg-slate-50">
+    <section
+      id="home"
+      className="pt-24 md:pt-32 pb-20 bg-slate-50 dark:bg-slate-900 transition-colors duration-300"
+    >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center">
         {/* Text Content */}
         <div className="md:w-1/2 text-center md:text-left mb-10 md:mb-0">
-          <h1 className="text-4xl md:text-5xl font-bold text-slate-900 leading-tight mb-4">
+          <h1 className="text-4xl md:text-5xl font-bold text-slate-900 dark:text-slate-200 leading-tight mb-4">
             Dr. Ishu Shrestha
           </h1>
-          <p className="text-xl text-slate-600 mb-6">Medical Officer</p>
-          <p className="text-lg text-slate-500 mb-8">
+          <p className="text-xl text-slate-600 dark:text-slate-300 mb-6">
+            Medical Officer
+          </p>
+          <p className="text-lg text-slate-500 dark:text-slate-400 mb-8">
             Dedicated medical professional with international experience across
             Nepal, UK, and Australia. Committed to providing comprehensive
             patient care with a focus on excellence in clinical practice.
@@ -26,11 +31,12 @@ const Hero = () => {
             View Achievements
           </button>
         </div>
-        {/* Rest of the component remains the same */}
+
+        {/* Image / Graphic */}
         <div className="md:w-1/2 flex justify-center">
-          <div className="w-64 h-64 md:w-80 md:h-80 bg-indigo-100 rounded-full flex items-center justify-center">
+          <div className="w-64 h-64 md:w-80 md:h-80 bg-indigo-100 dark:bg-indigo-900 rounded-full flex items-center justify-center transition-colors duration-300">
             <svg
-              className="w-32 h-32 text-indigo-300"
+              className="w-32 h-32 text-indigo-300 dark:text-indigo-400"
               fill="currentColor"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"

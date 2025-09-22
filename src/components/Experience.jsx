@@ -7,16 +7,20 @@ const ExperienceCard = ({
   description,
   country,
 }) => (
-  <div className="bg-white p-6 rounded-lg shadow-md mb-6">
+  <div className="bg-white dark:bg-slate-800 p-6 rounded-2xl shadow-md hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 mb-6 border-l-4 border-indigo-600 dark:border-indigo-400">
     <div className="flex justify-between items-start mb-4">
       <div>
-        <h3 className="text-xl font-semibold text-slate-900">{title}</h3>
-        <p className="text-slate-600">{location}</p>
+        <h3 className="text-xl font-semibold text-slate-900 dark:text-slate-200 mb-1">
+          {title}
+        </h3>
+        <p className="text-slate-600 dark:text-slate-300">{location}</p>
       </div>
-      <span className="text-sm text-indigo-600 font-medium">{duration}</span>
+      <span className="text-sm font-medium bg-indigo-100 dark:bg-indigo-700 text-indigo-700 dark:text-indigo-100 px-3 py-1 rounded-full shadow-sm">
+        {duration}
+      </span>
     </div>
-    <p className="text-slate-700 mb-2">{description}</p>
-    <span className="inline-block bg-slate-100 px-3 py-1 rounded-full text-sm text-slate-600">
+    <p className="text-slate-700 dark:text-slate-300 mb-3">{description}</p>
+    <span className="inline-block bg-slate-100 dark:bg-slate-700 px-3 py-1 rounded-full text-sm text-slate-600 dark:text-slate-200">
       {country}
     </span>
   </div>
@@ -51,13 +55,16 @@ const Experience = () => {
   ];
 
   return (
-    <section id="experience" className="py-20 bg-slate-50">
+    <section
+      id="experience"
+      className="py-20 bg-slate-50 dark:bg-slate-900 transition-colors duration-300"
+    >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold text-slate-900 mb-4">
+          <h2 className="text-3xl font-bold text-slate-900 dark:text-slate-200 mb-4">
             Professional Experience
           </h2>
-          <p className="text-xl text-slate-500">
+          <p className="text-xl text-slate-500 dark:text-slate-300">
             Medical practice across three diverse healthcare systems
           </p>
         </div>

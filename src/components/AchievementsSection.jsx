@@ -85,7 +85,7 @@ const AchievementsSection = () => {
     {
       type: "Education",
       title: "MBBS Degree",
-      issuer: "Medical University", // Add actual university name
+      issuer: "Medical University",
       date: "2018",
       description:
         "Completed Bachelor of Medicine and Bachelor of Surgery (MBBS), laying the foundation for medical practice.",
@@ -94,13 +94,16 @@ const AchievementsSection = () => {
   ];
 
   return (
-    <section id="achievements" className="py-20 bg-white dark:bg-slate-900">
+    <section
+      id="achievements"
+      className="py-20 bg-indigo-50 dark:bg-indigo-900 transition-colors duration-300"
+    >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-4">
+          <h2 className="text-3xl font-bold text-slate-900 dark:text-slate-200 mb-4">
             Professional Journey
           </h2>
-          <p className="text-xl text-slate-500 dark:text-slate-400">
+          <p className="text-xl text-slate-500 dark:text-slate-300">
             A testament to international medical excellence across Nepal, UK,
             and Australia
           </p>

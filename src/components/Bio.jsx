@@ -2,16 +2,22 @@ import React from "react";
 
 const Bio = () => {
   return (
-    <section id="bio" className="py-20 bg-slate-50">
+    <section
+      id="bio"
+      className="py-20 bg-slate-50 dark:bg-slate-900 transition-colors duration-300"
+    >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold text-slate-900 mb-4">Biography</h2>
-          <p className="text-xl text-slate-500">
+          <h2 className="text-3xl font-bold text-slate-900 dark:text-slate-200 mb-4">
+            Biography
+          </h2>
+          <p className="text-xl text-slate-500 dark:text-slate-300">
             A brief overview of Dr. Ishu Shrestha's international medical
             journey
           </p>
         </div>
-        <div className="bg-white dark:bg-slate-800 p-6 rounded-xl shadow-md">
+
+        <div className="bg-white dark:bg-slate-800 p-6 rounded-xl shadow-md transition-colors duration-300">
           <p className="text-slate-600 dark:text-slate-300 mb-4">
             Dr. Ishu Shrestha is a dedicated medical professional with extensive
             experience across three different healthcare systems. After
