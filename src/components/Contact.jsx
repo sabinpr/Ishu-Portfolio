@@ -21,7 +21,7 @@ const Contact = () => {
 
     try {
       const response = await fetch(
-        "https://portfolio-backend-6g0v.onrender.com/api/contact-ishu/",
+        "https://portfolio-backend-jx1d.onrender.com/api/contact-ishu/",
         {
           method: "POST",
           headers: {
